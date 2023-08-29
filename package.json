@@ -1,0 +1,21 @@
+{
+  "name": "projeto-indivitual-m4",
+  "version": "1.0.0",
+  "description": "Uma empresa de desenvolvimento de software precisa de uma ferramenta que vai receber uma lista de propriedades de CSS (ex: background-color, font-size, text-align) e vai devolvê-la ordenada de A-Z. Projeto do modulo 4 da resilia.",
+  "main": "ordenador.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ordenador.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilnaeSantos/ordenando-propriedades-css-PJ-M4.git"
+  },
+  "author": "Dilnae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DilnaeSantos/ordenando-propriedades-css-PJ-M4/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/DilnaeSantos/ordenando-propriedades-css-PJ-M4#readme"
+}
