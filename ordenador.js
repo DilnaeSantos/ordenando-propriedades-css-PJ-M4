@@ -17,3 +17,15 @@ function pedirPropriedade() {
         }
     });
 }
+
+pedirPropriedade()
+
+rl.on('close', () => {
+    const propriedadesOrdenadas = propriedades.sort();
+    
+    console.log('Propriedades ordenadas em ordem alfabética;');
+
+    propriedadesOrdenadas.forEach((propriedade) => {
+        console.log(propriedade)
+    });
+});
