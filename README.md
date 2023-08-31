@@ -57,4 +57,37 @@ color
 font-size
 ```
 
+## Tratamento de Erros
+
+#### Exemplo de Entrada Vazia:
+
+Quando o programa solicitar a inserção de uma propriedade de CSS, simplesmente pressione "Enter" sem digitar nada ou durante a execução do programa, pressione "Ctrl+C" no terminal ou feche o terminal diretamente.
+
+```
+- Digite uma propriedade de CSS (ou "SAIR" para encerrar):
+
+Entrada vazia. Por favor, insira uma propriedade válida ou digite "SAIR".
+
+- Digite uma propriedade de CSS (ou "SAIR" para encerrar):   
+```
+
+Este exemplo ilustra como os erros tratados são ativados durante a execução do código.
+
+#### Exemplo de Entrada Inválida (Número):
+
+Quando o programa solicitar a inserção de uma propriedade de CSS, se você inserir um número, o programa irá informar que a entrada é inválida e solicitará uma propriedade válida.
+
+```
+- Digite uma propriedade de CSS (ou "SAIR" para encerrar): 123
+
+Entrada inválida. Por favor, insira uma propriedade de CSS válida ou digite "SAIR".
+
+- Digite uma propriedade de CSS (ou "SAIR" para encerrar): 
+```
+
+## Referências
+
+  - [NodeJS - documentação](https://nodejs.org/en/docs)
+  - [Readline-sync - documentação](https://www.npmjs.com/package/readline-sync)
+
 Desenvolvido com dedicação durante a Formação Web Dev Fullstack - Resilia por Dilnae
