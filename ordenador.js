@@ -12,20 +12,31 @@ function pedirPropriedade() {
         if (resposta.toUpperCase() === 'SAIR') {
             rl.close();
         } else {
-            propriedades.push(resposta);
+            if (!isNaN(resposta)) { // Verifica se a entrada é um número
+                console.log('Por favor, digite uma propriedade de CSS válida.');
+            } else {
+                propriedades.push(resposta);
+            }
             pedirPropriedade();
         }
     });
 }
 
-pedirPropriedade()
+pedirPropriedade();
 
 rl.on('close', () => {
     const propriedadesOrdenadas = propriedades.sort();
     
-    console.log('Propriedades ordenadas em ordem alfabética;');
+    console.log('Propriedades ordenadas em ordem alfabética:');
 
     propriedadesOrdenadas.forEach((propriedade) => {
+        console.log(propriedade);
+    });
+});
+
+console.log('Propriedades ordenadas em ordem alfabética;');
+
+propriedadesOrdenadas.forEach((propriedade) => {
         console.log(propriedade)
     });
 });
