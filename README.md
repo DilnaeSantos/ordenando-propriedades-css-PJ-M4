@@ -24,7 +24,7 @@ Para executar o projeto em sua própria máquina, siga as instruções no tópic
    
 2. Clone este repositório usando o comando:
 ```bash
-  git clone (https://github.com/DilnaeSantos/ordenando-propriedades-css-PJ-M4.git)
+  git clone https://github.com/DilnaeSantos/ordenando-propriedades-css-PJ-M4.git
  ```
 3. Navegue até o diretório do projeto:
 ```bash
